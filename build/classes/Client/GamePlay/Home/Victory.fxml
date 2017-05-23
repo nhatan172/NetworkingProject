@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="274.0" prefWidth="480.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="Client.GamePlay.Home.VictoryController">
+   <children>
+      <ImageView fitHeight="326.0" fitWidth="480.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/victory.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="184.0" layoutY="182.0" mnemonicParsing="false" onMouseClicked="#Continue" prefHeight="49.0" prefWidth="113.0" text="Continue" textFill="#3700ff">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <effect>
+            <Bloom threshold="0.86" />
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>

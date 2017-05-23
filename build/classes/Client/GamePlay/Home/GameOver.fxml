@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="271.0" prefWidth="481.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="Client.GamePlay.Home.GameOverController">
+   <children>
+      <ImageView fitHeight="297.0" fitWidth="481.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/gover.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="192.0" layoutY="185.0" mnemonicParsing="false" onMouseClicked="#Continue" text="Continue">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <effect>
+            <Bloom threshold="0.88" />
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>
